@@ -8,3 +8,11 @@ This project aims to help job seekers maintain a list of contacts they can reach
 - Facilitate communication with recruiters and professional networks.
 - Assist with tailoring resumes and cover letters to specific job descriptions.
 - Offer a simple starting point for tools that streamline the job search.
+
+## Project Structure
+
+- `src/` - Core source code for the application
+- `tests/` - Unit and integration tests
+- `agents/` - Agent implementations for interactions
+- `prompts/` - Prompt templates and related files
+
