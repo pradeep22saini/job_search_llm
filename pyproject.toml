@@ -1,0 +1,17 @@
+[project]
+name = "job_search_llm"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "openai",
+    "python-dotenv",
+    "google-api-python-client",
+    "google-cloud-aiplatform",
+]
+
+[project.optional-dependencies]
+# Developer dependencies
+dev = [
+    "pytest",
+]
